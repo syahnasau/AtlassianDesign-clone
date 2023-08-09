@@ -1,0 +1,207 @@
+/* #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+} */
+
+
+.navbar .btn {
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+}
+
+#ThemeBtn {
+  background-color: #091E420F;
+  color: #344563;
+}
+
+#ThemeBtn:hover {
+  background-color: #07193835;
+}
+
+.NavBtn span {
+  align-items: center;
+  content: cen;
+}
+
+.navbar .nav-link:hover {
+  background-color: #091E420F;
+  border-radius: 5px;
+}
+
+.h1-header {
+  font-size: 44px;
+  color: #172B4D;
+}
+
+.SecHeader p {
+  font-size: 24px;
+  color: #5E6C84;
+}
+
+
+.SecFuture .card {
+  border-radius: 5px;
+  height: 60px;
+  border: none;
+
+}
+
+.backgroundVideo {
+  background: linear-gradient(90deg, #eeb3ac 0%, #ebc3db 100%);
+  opacity: 90%;
+  
+}
+
+.videoOverplay {
+  -o-filter: blur(px);
+  filter: blur(3px);
+}
+
+.txt-Future{
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.btnVideo {
+  background: linear-gradient(90deg, #CA3521 0%, #AE4787 100%);
+  color: white;
+  border-radius: 5px;
+  border: none;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.SectionOne .card-title {
+  font-size: 20px;
+}
+
+.SectionOne .card-text {
+  font-size: 14px;
+  color: #5E6C84;
+}
+
+.SectionOne a {
+  font-size: 14px;
+}
+
+.SectionOne .card {
+  background-color: #f7f8f9;
+  border: none;
+}
+
+.SectionOne .badge {
+  font-size: 14px;
+  border-radius: 5px;
+}
+
+.SectionTwo .card-title {
+  font-size: 20px;
+}
+
+.SectionTwo .card-text {
+  font-size: 14px;
+  color: #5E6C84;
+}
+
+.SectionTwo a {
+  font-size: 14px;
+}
+
+.SectionTwo .card {
+  border: none;
+  height: 250px; 
+}
+
+.SectionTwo .badge {
+  font-size: 14px;
+  border-radius: 5px;
+}
+
+.brandMenu {
+  box-shadow: 0px 1px 1px #091E4240, 0px 0px 1px #091E424F, 0 1px 1px rgba(9, 30, 66, 0.25), 0 0 1px 0 rgba(9, 30, 66, 0.31);
+  height: 250px; 
+  border: none;
+}
+
+
+.brandMenu i {
+  font-size: 16px;
+}
+
+.SectionFive {
+  background-color: #F7F8F9;
+}
+
+.SectionFive p {
+  color: #5E6C84;
+}
+
+.SectionFive .card {
+  margin-top: 30px;
+}
+
+
+.SectionFive .card-title {
+  font-size: 20px;
+}
+
+.SectionFive .card-text {
+  font-size: 14px;
+  color: #5E6C84;
+}
+
+.SectionFive .card {
+  border: none;
+  height: 200px; 
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.brandMenu:hover {
+  box-shadow: var(--ds-shadow-overlay, 0 8px 16px -4px rgba(9, 30, 66, 0.25), 0 0 1px rgba(9, 30, 66, 0.31));
+  transition: box-shadow 200ms;
+}
+
